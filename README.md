@@ -196,25 +196,32 @@ Copy `.env.example` to `.env`:
 GEMINI_API_KEY="your-gemini-api-key"
 ```
 
-### Step 3: Launch the Development Server
-```bash
+Step 3: Launch the App
+
+Option A: Use the live deployment (no setup needed)
+
+TerraCrop AI is deployed on Vercel:
+
+🔗 https://your-app-name.vercel.app
+
+Option B: Run locally with the development server
+
+bash
 npm run dev
-```
+
 Open your browser and navigate to:
-```
+
 http://localhost:3000
-```
-
-### Step 4: Run the Test Suite
-```bash
+Step 4: Run the Test Suite
+bash
 npm test
-```
+
 This runs automated tests validating:
-- Agronomic monoculture penalty rules.
-- Priority multiplier normalization (strictly sums to 1.000).
-- Deterministic optimizer reproducibility across repeated calls.
-- Simulated climate stress calculations in the Scenario Lab.
 
----
+Agronomic monoculture penalty rules.
+Priority multiplier normalization (strictly sums to 1.000).
+Deterministic optimizer reproducibility across repeated calls.
+Simulated climate stress calculations in the Scenario Lab.
+📄 License
 
-
+Released under the Apache-2.0 License. NASA satellite datasets are open-access public domain data courtesy of NASA Earth Science Division.
