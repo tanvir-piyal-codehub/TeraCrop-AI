@@ -217,5 +217,4 @@ This runs automated tests validating:
 
 ---
 
-## 📄 License
-Released under the **Apache-2.0 License**. NASA satellite datasets are open-access public domain data courtesy of NASA Earth Science Division.
+
